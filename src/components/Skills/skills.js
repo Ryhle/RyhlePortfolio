@@ -13,21 +13,21 @@ const Skills = () => {
                 <img src={AI} alt='AI' className='skillBarImg'/>
                 <div className='skillBarText'>
                     <h2>AI Development</h2>
-                    <p>DEMO DEMO DEMO DEMO</p>
+                    <p>Python, TensorFlow, PyTorch, NLP, Image Classification, LLM, Machine Translation</p>
                 </div>
                 </div>
             <div className='skillBar'>
                 <img src={Data} alt='Data' className='skillBarImg'/>
                 <div className='skillBarText'>
                     <h2>Data Science</h2>
-                    <p>DEMO DEMO DEMO DEMO</p>
+                    <p>Machine Learning, Data Visualizzation, Statistics, Storytelling</p>
                 </div>
             </div>
             <div className='skillBar'>
                 <img src={Dev} alt='Dev' className='skillBarImg'/>
                 <div className='skillBarText'>
                     <h2>Software Development</h2>
-                    <p>DEMO DEMO DEMO DEMO</p>
+                    <p>Python, C#, Java, SQL, MongoDB, Full-Stack Development, Git, Automation </p>
             </div>
                 </div>
         </div>
