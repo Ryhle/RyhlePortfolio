@@ -1,3 +1,5 @@
+/*THIS IS CODED BY: RYHLE NODNYLSON GUINTO - 301356103 September 28, 2024
+FILE NAME: navbar.css*/
 .navbar{
     height:5rem;
     width: 100vw;
@@ -62,9 +64,9 @@
 }
 
 .active{
-    color: yellow;
+    color: #f07117;
     padding-bottom: 0.5rem;
-    border-bottom: 3px solid yellow;
+    border-bottom: 3px solid #f07117;
 }
 
 .navMenu{

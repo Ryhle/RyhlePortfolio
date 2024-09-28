@@ -1,3 +1,5 @@
+/*THIS IS CODED BY: RYHLE NODNYLSON GUINTO - 301356103 September 28, 2024
+FILE NAME: footer.js*/
 import React from 'react'
 import './footer.css'
 const Footer = () => {

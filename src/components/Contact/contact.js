@@ -1,3 +1,5 @@
+/*THIS IS CODED BY: RYHLE NODNYLSON GUINTO - 301356103 September 28, 2024
+FILE NAME: contact.js*/
 import React, {useRef} from 'react'
 import './contact.css'
 import GFK from '../../assets/gfk.png'

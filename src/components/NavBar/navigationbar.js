@@ -1,3 +1,5 @@
+/*THIS IS CODED BY: RYHLE NODNYLSON GUINTO - 301356103 September 28, 2024
+FILE NAME: navigationbar.js*/
 import React, { useState } from 'react';
 import './navbar.css';
 import logo from '../../assets/logo.png';

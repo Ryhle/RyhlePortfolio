@@ -1,3 +1,5 @@
+/*THIS IS CODED BY: RYHLE NODNYLSON GUINTO - 301356103 September 28, 2024
+FILE NAME: app.js*/
 import NavBar from "./components/NavBar/navigationbar";
 import Intro from "./components/Intro/intro"
 import Skills from "./components/Skills/skills";

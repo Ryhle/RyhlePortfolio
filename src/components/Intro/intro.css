@@ -1,3 +1,6 @@
+/*THIS IS CODED BY: RYHLE NODNYLSON GUINTO - 301356103 September 28, 2024
+FILE NAME: intro.css*/
+
 #intro{
     height: calc(100vh - 4rem);
     width: 100vw;
@@ -59,5 +62,136 @@
 @media screen and (max-width:840px){
     .bg{
         right: -30vw;
+    }
+}
+
+@media screen and (max-width:640px){
+    #intro {
+        height: calc(100vh - 4rem);
+        width: 100vw;
+        max-width: 75rem;
+        margin: 0 auto;
+        overflow: hidden;
+        position: relative;
+    }
+    
+    .bg {
+        position: absolute;
+        top: 0;
+        right: 0;
+        z-index: -1;
+        object-fit: cover;
+        width: 100vw;
+        height: 100vh; /* Make sure the image covers the entire height */
+    }
+    
+    /* Ensures the text content doesn't overflow */
+    .introContent {
+        height: 100vh;
+        width: 100%;
+        padding: 2rem;
+        font-size: 3rem;
+        font-weight: 700;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        z-index: 1; /* Ensures content is above the background */
+        text-align: left; /* Align text to the left */
+    }
+    
+    .hello {
+        font-size: 1.75rem;
+        font-weight: 100;
+    }
+    
+    .introName {
+        color: #f07117;
+    }
+    
+    .introPara {
+        font-size: 1rem; /* Adjust the font size for smaller screens */
+        font-weight: 300;
+        letter-spacing: 1px;
+        margin-top: 1rem;
+        line-height: 1.5rem; /* Adjust line-height to avoid wrapping */
+    }
+    
+    .btn {
+        background: white;
+        margin: 1rem 0;
+        padding: 0.75rem 1.5rem;
+        border: none;
+        border-radius: 2rem;
+        font-size: 1rem;
+        cursor: pointer;
+    }
+    
+    .btnImg {
+        object-fit: cover;
+        margin: 0 0.25rem;
+        height: 1rem;
+    }
+    
+    /* For smaller screens */
+    @media screen and (max-width: 840px) {
+        .bg {
+            width: 100vw; /* Ensures the background covers the screen width */
+            height: 100vh; /* Makes the image fill the entire height */
+            object-fit: cover;
+            top: 0;
+            right: 0;
+        }
+    
+        .introContent {
+            width: 100%;
+            padding: 1rem;
+            font-size: 2rem;
+            text-align: left; /* Ensures text is aligned properly */
+        }
+    
+        .hello {
+            font-size: 1.5rem;
+        }
+    
+        .introPara {
+            font-size: 1rem;
+            letter-spacing: normal;
+        }
+    
+        .btn {
+            padding: 0.5rem 1.2rem;
+            font-size: 0.9rem;
+        }
+    }
+    
+    /* For extra small screens (mobile) */
+    @media screen and (max-width: 480px) {
+        .bg {
+            width: 100vw;
+            height: 100vh;
+            object-fit: cover;
+            top: 0;
+            right: 0;
+        }
+    
+        .introContent {
+            font-size: 1.5rem;
+            padding: 1rem;
+            text-align: left;
+        }
+    
+        .hello {
+            font-size: 1.25rem;
+        }
+    
+        .introPara {
+            font-size: 1rem;
+            line-height: 1.2rem;
+        }
+    
+        .btn {
+            padding: 0.5rem 1rem;
+            font-size: 0.8rem;
+        }
     }
 }

@@ -1,3 +1,5 @@
+/*THIS IS CODED BY: RYHLE NODNYLSON GUINTO - 301356103 September 28, 2024
+FILE NAME: works.js*/
 import React from 'react'
 import Portfolio1 from '../../assets/dummy.png'
 import './works.css'
